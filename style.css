@@ -25,6 +25,7 @@ h4 {
     border-bottom: solid 1px #e0e0e0;
     position: fixed;
     top: 0;
+    z-index: 1000;
 }
 
 .left-navbar {
