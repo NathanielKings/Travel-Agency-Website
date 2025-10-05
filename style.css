@@ -952,7 +952,7 @@ input::placeholder {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 4rem 4rem;
+        padding: 4rem 2rem;
     }
 
     .hero-content h1 {
@@ -1053,12 +1053,17 @@ input::placeholder {
     }
 
     .bottom-links {
-        flex-direction: row;
+        flex-direction: column;
+        row-gap: .5rem;
     }
 
     .top-testimonial-section h1,
     .top-popular-destination h1 {
         text-align: center;
         font-size: 24px;
+    }
+
+    .left-navbar h2 {
+        font-size: 1rem;
     }
 }
